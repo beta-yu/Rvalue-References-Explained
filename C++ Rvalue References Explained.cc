@@ -203,3 +203,6 @@ X&& forward(typename remove_reference<X>::type& a) noexcept
 //此时传递给A的构造函数的参数是以右值引用的方式传递了X类型对象。
 
 /*利用特殊的引用折叠规则与模板函数推演规则实现完美转发。*/
+
+
+//总结自：http://thbecker.net/articles/rvalue_references/section_01.html
